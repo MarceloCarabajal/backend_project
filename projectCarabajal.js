@@ -1,3 +1,8 @@
+//Desafio 2
+const fs = require('fs').promises;
+const ruta = "./productos.json";
+
+
 class ProductManager {
     constructor(){
         this.products=[]
